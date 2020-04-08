@@ -1,0 +1,49 @@
+h1 
+{ color : red ;  }
+
+h2
+{ font-size: medium;
+color: darkgray;
+}
+
+p 
+{ color: blue;
+font-size: 20px;
+}
+
+#bogota 
+{ /*
+border : pink dotted 4px*/ 
+
+border-width: 3px;
+border-style: outset;
+border-color: royalblue;
+
+}
+
+.capital
+{
+background-color: skyblue;}
+
+
+.capital
+
+{ font-family: 'Parisienne', cursive;
+font-size:large ;
+}
+
+
+@font-face {
+    font-family: 'myfont';
+    src: url(LuckiestGuy-Regular.ttf);
+    Font-style:normal;
+    font-weight: bold;
+    
+       }
+
+    h1 {
+        font-family: 'myfont';
+        font-weight: bold;
+      }
+
+

@@ -1,0 +1,19 @@
+p {color: red;}
+
+p.ex1 {display: inline;}
+p.ex2 {display: block;}
+
+div.a {
+    width: auto;
+    border: 3px solid black;}
+
+    
+body {background:#551e33
+    ;
+
+    color : #ffffff;
+
+
+    }
+
+    /*contenido*/

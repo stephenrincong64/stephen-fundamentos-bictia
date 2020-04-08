@@ -1,0 +1,35 @@
+div.a {
+    width: auto;
+    border: 1px solid rgb(233, 29, 29);
+    margin: 90px;
+    padding: 35px;
+    height: 100px;
+    letter-spacing: 2px;
+    initial-letter-align: 3px;
+    letter-spacing: normal;
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+    
+    
+body  {
+    background-image: url("tree.gif");
+    background-color: #cccccc;
+  }
+  </style>
+  </head>
+  <body>
+}
+
+h2 {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+  }
+  
+  p {color: red;}
+
+  p.ex1 {display: none;}
+  p.ex2 {display: inline;}
+  p.ex3 {display: block;}
+  p.ex4 {display: inline-block;}

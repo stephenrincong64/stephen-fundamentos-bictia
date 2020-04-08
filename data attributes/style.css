@@ -1,0 +1,93 @@
+body
+{background-color: rgb(247, 224, 20);}
+
+h1
+{font-size: 50px;
+ color: crimson;
+}
+
+p{
+color: blue; 
+font-family: 'Liu Jian Mao Cao', cursive;
+font-weight: 600;
+font-style: normal;
+font-size: 120%;   
+}
+
+p {
+    border: 3px solid blue;
+    background-color: rgb(125, 230, 125);
+      }
+
+[data-animal="aves"] 
+{
+background-image: url(tree.gif); width: 50px; height: 50px;
+background-color: darkgreen;
+color: rgb(97, 139, 0);
+font-family: Georgia, 'Times New Roman', Times, serif ;
+
+  }
+[data-animal="mamiferos"] 
+{font-size: 125%;
+color: rgb(139, 0, 12);
+}
+[data-animal="anfibios"] 
+{font-size: 125%;
+color: rgb(241, 238, 30);
+}
+[data-animal="peces"] 
+{font-size: 125%;
+color: rgb(247, 27, 19);
+}
+[data-animal="reptiles"] 
+{font-size: 125%;
+color: rgb(15, 15, 14);
+}
+[data-animal="primate"] 
+{font-size: 125%;
+color: rgb(28, 139, 0);
+}
+[data-animal="felino"] 
+{font-size: 125%;
+color: rgb(28, 221, 228);
+}
+[data-animal="canino"] 
+{font-size: 125%;
+color: darkblue;
+}
+[data-animal="crustaceo"] 
+{font-size: 200%;
+color: rgb(164, 164, 199);
+}
+[data-animal="carnivoro"] 
+{font-size: 125%;
+color: rgb(231, 22, 137);
+}
+[data-animal="hervivoro"] 
+{font-size: 150%;
+color: rgb(2, 3, 17);
+font-family: 'Liu Jian Mao Cao', cursive;
+   }
+
+[data-vertebrado="hueso"]
+background-color: darkgreen;
+color: rgb(97, 139, 0);
+font-family: Georgia, 'Times New Roman', Times, serif ;
+
+
+/* <a> elements whose class attribute contains the word "logo" 
+
+asdfgasj kfaskjdfjad
+rtadsfa 
+fgafd
+
+*/
+
+[data-price="1500"][data-properties~="vitaminaC"] {
+    font-size: 70px;
+}
+
+[data-price="1500"].selected,
+[data-properties~="vitaminaA"] {
+    color: red;
+}

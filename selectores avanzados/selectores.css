@@ -1,0 +1,115 @@
+body 
+{background-color: wheat;}
+
+
+#Japon
+{background-color: rgb(207, 195, 28);
+margin-bottom: 1em;}
+
+SPAN,.CAZA
+{font-weight: bolder;
+color: royalblue;}
+
+.reconocimiento,h3
+{color: rgb(17, 8, 2);
+
+font-style: italic;
+}
+.Planeadores,h3
+{background: salmon;}
+
+h2,h3
+{font-size: larger;
+}
+
+.Planeadores,h2
+{color: rgb(19, 34, 236);
+}
+
+ul .bombardero
+{border: dotted;
+}
+
+#Aviones #ALEMANIA
+{background-color: rgb(177, 253, 253);
+margin-bottom: 1em;}
+
+#Aviones #Estados-Unidos
+{background-color: rgb(214, 29, 143);
+margin-bottom: 1em;}
+
+#Aviones #Francia
+{background-color: rgb(72, 175, 25);
+margin-bottom: 1em;}
+
+#Aviones #ITALIA
+{background-color:rgb(208, 253, 177);
+margin-bottom: 1em;}
+
+
+
+#ALEMANIA  .reconocimiento 
+{font-family:  Tahoma; 
+color: rgb(34, 219, 90); } 
+
+.AL >.CAZA
+{ border: dotted;
+}
+
+.US>.CAZA
+{border: dotted;
+    background-color: yellow;
+    }
+
+.FR >.CAZA
+{border: dotted;
+    background-color: greenyellow
+    }
+
+.IT>.CAZA
+{border: dotted;
+    background-color: rgb(35, 23, 209)
+    }
+
+.IT>.bombardero
+{background-color: rgb(226, 82, 14)
+    }
+
+.transporte+.Planeadores
+{background-color: khaki;
+}
+
+.Planeadores+.reconocimiento
+{background-color: rgb(148, 240, 140);
+}
+
+.Planeadores+.reconocimiento
+{margin-top: 1em;
+}
+
+.transporte+.Planeadores
+{margin-top: 1em;
+}
+
+.bombardero+.transporte
+{border: double;
+}
+
+p~.año
+{background: lawngreen;
+}
+
+p~.año-us
+{background: rgb(13, 146, 91);
+}
+
+p~.año-fr
+{background: rgb(49, 63, 57);
+}
+
+p~.año-it
+{background: rgb(13, 146, 91);
+}
+p~.año-jp
+{background: rgb(8, 18, 167);
+}
