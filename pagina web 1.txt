@@ -1,9 +1,0 @@
-<html>
-<head></head>
-<body>
-Hola mundo!<br>
-<b>Esto es negrita.</b><br>
-<i>Y esto cursiva.</i><br>
-</body>
-</html>
-

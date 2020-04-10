@@ -7,7 +7,9 @@ body
 
 .anormal::after {
     content: " <- anormal"; 
-    color: rgb(240, 76, 35);
+    color:rgb(255,0,0,0.1);commit
+    border-radius: 40px 20px 20px 80px;git  -m "first commit"
+
     font-size: x-large;
   }
   
